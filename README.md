@@ -2,13 +2,13 @@ Lesson 12 from PatrickAlphaC:
 - https://github.com/smartcontractkit/full-blockchain-solidity-course-py
 
 Two contracts have been created:
-A. Box >> retrieve and store functions
-B. BoxV2 >> retrieve, store and increment functions
+1. Box >> retrieve and store functions
+2. BoxV2 >> retrieve, store and increment functions
 
 We want:
-1. deploy A
+1. deploy Box
 2. store some value
-3. Upgrade From A => B
+3. Upgrade From Box => BoxV2
 4. Increment the already stored value
 
 This is peroformed via OpenZeppelin proxy contracts:
